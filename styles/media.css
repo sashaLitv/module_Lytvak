@@ -1,12 +1,7 @@
-@media (max-width: 400px) {
-    .social {
-        display: none;
-    }
-}
 
 @media (max-width: 1024px) {
     .header img {
-        margin-bottom: 0px;
+        margin-bottom: 0;
         width: 70%; 
     }
     .header { 
@@ -16,7 +11,6 @@
         font-size: 16px; 
         padding: 10px 15px 10px 35px; 
     }
-
     .footer {
         padding: 20px 10px;
         width: 100%;
@@ -37,15 +31,20 @@
         grid-template-rows: auto; 
         padding: 20px;
     }
-
     .main-2 img {
         max-width: 100%;
     }
-
     .main-2 p {
         margin-top: 20px; 
     }
 }
+
+@media (max-width: 400px) {
+    .social {
+        display: none;
+    }
+}
+
 
 /* @media (max-width: 350px) {
     .main-1::before {
@@ -62,4 +61,3 @@
         display: none;
     }
 } */
-
